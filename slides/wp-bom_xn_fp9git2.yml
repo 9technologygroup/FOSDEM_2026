@@ -1,0 +1,330 @@
+_meta:
+  build_on: 2025-12-01T10:57:24+0000
+
+wordpress_sbom:
+
+  plugins:
+    'tinymce-advanced':
+      name:    Advanced Editor Tools
+      version: 5.9.2
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'flowpaper-lite-pdf-flipbook':
+      name:    FlowPaper
+      version: 2.0.6
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'very-simple-meta-description':
+      name:    VS Meta Description
+      version: 8.0
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'ewww-image-optimizer':
+      name:    EWWW Image Optimizer
+      version: 8.3.0
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'wordpress-importer':
+      name:    WordPress Importer
+      version: 0.9.5
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'simple-history':
+      name:    Simple History
+      version: 5.19.0
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'polylang':
+      name:    Polylang
+      version: 3.6.7
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'redirection':
+      name:    Redirection
+      version: 5.5.2
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'find-my-blocks':
+      name:    Find My Blocks!
+      version: 3.5.6
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'wpforms':
+      name:    WPForms
+      version: 1.9.4
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'wpforms-surveys-polls':
+      name:    WPForms Surveys and Polls
+      version: 1.15.0
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'wp-media-folder':
+      name:    WP Media folder
+      version: 5.9.13
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+    'accred':
+      name:    EPFL Accred
+      version: 0.17
+      hash:    85a0ae0217dd84e1727dcbb368ce9eaca02d9446
+      branch:  master
+      repo:    https://github.com/epfl-si/wordpress.plugin.accred
+    
+    'tequila':
+      name:    EPFL Tequila
+      version: 0.17 (vpsi)
+      hash:    f33ab0a571aa53d80c51b0026d86a5039f63979c
+      branch:  master
+      repo:    https://github.com/epfl-si/wordpress.plugin.tequila
+    
+    'wp-gutenberg-epfl':
+      name:    wp-gutenberg-epfl
+      version: 2.49.0
+      hash:    2da40cf483548dbfe495215323692ddf9c106e98
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-gutenberg-epfl
+    
+    'enlighter':
+      name:    Enlighter - Customizable Syntax Highlighter
+      version: 4.2
+      hash:    710c780f5d4e2516179acf45688f364c8bf60e36
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-enlighter
+    
+    'epfl-404':
+      name:    EPFL-404
+      version: 0.5
+      hash:    5fbe16b6a667d696a1817e2b25c67f2e284fb8d0
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-404
+    
+    'epfl-cache-control':
+      name:    EPFL-Cache-Control
+      version: 1.1.1
+      hash:    9bff02eaac63e39160d3e51e0a1c28e2b0292705
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-cache-control
+    
+    'epfl-coming-soon':
+      name:    EPFL Coming Soon
+      version: 0.1.7
+      hash:    954746675e1be1b428f80179c89365092aaa34ae
+      branch:  main
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-coming-soon
+    
+    'EPFL-Content-Filter':
+      name:    EPFL Content Filter
+      version: 1.1
+      hash:    ded5dc24e69ccb1db76bb3a693fec9ebbc220c80
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-content-filter
+    
+    'epfl-courses-se':
+      name:    EPFL Courses Search Engine plugin
+      version: 0.5
+      hash:    becb550679dd726d5dfbba1ef667e980666dff30
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-courses-se
+    
+    'epfl-diploma-verification':
+      name:    EPFL Diploma Verification
+      version: 1.0.5
+      hash:    c13e663e47a9f0d75c74bde501fd2ce3b0712f39
+      branch:  main
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-diploma-verification
+    
+    'epfl-intranet':
+      name:    EPFL Intranet
+      version: 1.3.0
+      hash:    1baf9e14858610acc2c4548676111ddf4145d14e
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-intranet
+    
+    'EPFL-Library-Plugins':
+      name:    EPFL Library Plugins
+      version: 2.0
+      hash:    7b32881658c20267b9087f3ac582437b3e5769a7
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-library
+    
+    'epfl-menus':
+      name:    EPFL Menus
+      version: 1.7
+      hash:    673e42e8feb8964990e2d265b3c5161bb1c3b9e6
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-menus
+    
+    'epfl-partner-universities':
+      name:    EPFL Partner Universities
+      version: 1.1
+      hash:    964b4bc3eef20cbfa6bfc527b4379e4b308982f7
+      branch:  main
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-partner-universities
+    
+    'epfl-remote-content-shortcode':
+      name:    EPFL Remote Content Shortcode
+      version: 1.2.0
+      hash:    46c4828a2df00d84cdac3514bd551465b70af066
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-remote-content
+    
+    'epfl-restauration':
+      name:    EPFL Restauration
+      version: 1.3
+      hash:    9f3138d9323c7f967d3e14d119c47f98fa9924c3
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-restauration
+    
+    'EPFL-settings':
+      name:    EPFL General settings
+      version: 1.4
+      hash:    7644a6729379188429a01fd89661555c184b1734
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-settings
+    
+    'epfl-translate':
+      name:    EPFL Translate
+      version: 1.0.0
+      hash:    5ed8552fc7a39c874ba635ee678387ff5001d369
+      branch:  main
+      repo:    https://github.com/epfl-si/wp-plugin-epfl-translate
+    
+    'pushgateway':
+      name:    WordPress Pushgateway
+      version: 0.1
+      hash:    f74542340c4c2a5ac59ab6b20410f4325ae47b12
+      branch:  main
+      repo:    https://github.com/epfl-si/wp-plugin-pushgateway
+    
+    'wpforms-epfl-payonline':
+      name:    WPForms EPFL Payonline (saferpay)
+      version: 2.6.0
+      hash:    ~
+      branch:  ~
+      repo:    ~
+    
+  mu-plugins:
+    'EPFL-custom-wp-cron.php':
+      name:    WordPress custom wp cron
+      version: 0.1
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_audit.php':
+      name:    EPFL Audit
+      version: 1.1.0
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_block_white_list.php':
+      name:    EPFL block white list
+      version: 1.1.0
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_custom_editor_menu_loader.php':
+      name:    EPFL custom editor role menu
+      version: 1.3.0
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_disable_comments.php':
+      name:    EPFL Disable Comments
+      version: 0.4
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_disable_updates_automatic.php':
+      name:    EPFL disable all automatic updates.
+      version: 0.0.4
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_google_analytics_hook.php':
+      name:    EPFL Google Analytics connector
+      version: 2.0
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_installs_locked.php':
+      name:    EPFL lock plugin and theme install and configuration
+      version: 1.2.0
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_last_page_changes.php':
+      name:    EPFL last page changes
+      version: 0.0.3
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'EPFL_sitemap.php':
+      name:    EPFL Sitemap
+      version: 1.0.0
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'class-epfl-social-graph.php':
+      name:    EPFL Social Graph
+      version: 1.1.2
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+    'epfl-functions.php':
+      name:    EPFL Functions
+      version: 1.2.7
+      hash:    9b8af5c900b83b512b56a328de622b1578222131
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-mu-plugins
+    
+  themes:
+    'wp-theme-2018':
+      name:    Epfl
+      version: 1.58.2
+      hash:    7fed4c56451687e9632bc15c02bbdd9b1b38695b
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-theme-2018
+    
+    'wp-theme-light':
+      name:    EPFL light
+      version: 1.3.0
+      hash:    7fed4c56451687e9632bc15c02bbdd9b1b38695b
+      branch:  master
+      repo:    https://github.com/epfl-si/wp-theme-2018
+    
